@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+
+            background-color: antiquewhite;
+            border: 4px red solid;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        
+        .item{
+            
+            border: 1px rgb(3, 44, 3) solid;
+           
+        }
+        
+        #i1{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            grid-column: 1/span 3;
+        }
+
+        
+        #i2{
+
+            grid-column: 1/span 3;
+        }
+        
+        #i2 img{
+
+            height: 200px;
+            width: 100%;
+        }
+        
+        #i6{
+
+            grid-column: 1/span 2;
+        }
+
+        #i8{
+            grid-column: 1/span 3;
+        }
+    </style>
+</head>
+<body>
+        <div class = "container">
+            <div class="item" id="i1">Famous Tourism Places of India</div>
+            <div class="item" id="i2"><img src="Images/INDIA1.webp"></div>
+            <div class="item" id="i3">Item 3</div>
+            <div class="item" id="i4">Item 4</div>
+            <div class="item" id="i5">Item 5</div>
+            <div class="item" id="i6">Item 6</div>
+            <div class="item" id="i7">Item 7</div>
+            <div class="item" id="i8">Item 8</div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* type selector */
+        h1{
+            background-color:rgb(26, 230, 230);
+        }
+
+
+        /* grouping selector */
+        h2,h3{           
+            color:green;
+            background-color:burlywood;
+            font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        /* attribute selector */
+        a[href="html tables.html"]{
+            color: rgb(47, 197, 129);
+        }
+
+        a[href="html forms.html"]{
+            color: blueviolet;
+        }
+
+
+        /* Id selector */
+        #para1{
+            color:purple;
+        }
+
+        #para2{
+            color:rgb(210, 75, 210);
+        }
+
+
+        /* class selector */
+        .class1{
+            color: navy;
+        }
+
+        /* universal selector */
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: cornsilk;
+            font-style: italic;
+        }
+
+
+        /* pseudo selector */
+        a:hover{
+            color:crimson;
+            background-color:gold;
+        }
+
+
+        /* combinator selector */
+        .d1 p{
+            background-color: aquamarine;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="css practice.css"/>
+
+    <title>css practice</title>
+</head>
+<body>
+
+    <h1 style="color:maroon">Front End Web Developer- INT219</h1>     <!-- inline css -->
+    <h2>Learning CSS and Javascript.</h2>
+    <h3>Learning CSS and Javascript.</h3>
+
+    <h4 class="class1">Learning CSS and Javascript.</h4>
+    <h5 class="class1">Learning CSS and Javascript.</h5>
+    <h6 class="class1">Learning CSS and Javascript.</h6>
+
+    <p id="para1">This is paragraph 1.</p>
+    <p id="para2">This is paragraph 2.</p>
+
+    <a href="html tables.html">HTML tables</a>
+    <a href="html forms.html">HTML forms</a>
+
+    <div class="d1">
+        <p>This is paragraph in div.</p>
+    </div>
+
+
+</body>
+</html>
